@@ -7,6 +7,7 @@ pipeline {
             }
         }
         stage('Talk') {
+          agent any
             steps {
                 sh 'echo "Hello World"'
                 sh '''
