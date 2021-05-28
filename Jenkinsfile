@@ -3,6 +3,11 @@ pipeline {
         docker { image 'node:14-alpine' }
     }
     stages {
+      stage('Test') {
+            steps {
+                sh 'node --version'
+            }
+        }
         stage('Talk') {
             steps {
                 sh 'echo "Hello World"'
@@ -13,11 +18,5 @@ pipeline {
             }
         }
     } 
-    stages {
-        stage('Test') {
-            steps {
-                sh 'node --version'
-            }
-        }
-    } 
+        
 }
