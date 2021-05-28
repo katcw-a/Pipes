@@ -6,8 +6,7 @@ pipeline {
                 sh 'npm --version'
             }
         }
-    }
-    stage('Talk') {
+        stage('Talk') {
             steps {
                 sh 'echo "Hello World"'
                 sh '''
@@ -16,4 +15,5 @@ pipeline {
                 '''
             }
         }
+    }  
 }
