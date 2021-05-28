@@ -1,13 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
-            steps {
-                sh 'npm --version'
-            }
-        }
         stage('Talk') {
-          agent any
             steps {
                 sh 'echo "Hello World"'
                 sh '''
