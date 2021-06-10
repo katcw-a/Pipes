@@ -6,14 +6,14 @@ Creating My first Jenkins pipeline
 
 https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql/
 
-Creating a three layer project
-Webpage: Standard one-page website
-Login Page
-Home Page
-Services:
-Account service - user can create account, login, signout
-Database:
-Holding account details
+Using Express, and postgresql
+Tests:
+
+- Mocha - test runner
+- Chai - to make assertions
+- nyc - for test coverage report
+- sinon-chai - extends chai
+- supertest - makes HTTP calls to API endpoint
 
 ## Jenkins role
 
