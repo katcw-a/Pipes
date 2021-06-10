@@ -4,6 +4,8 @@ Creating My first Jenkins pipeline
 
 ## Project Idea
 
+https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql/
+
 Creating a three layer project
 Webpage: Standard one-page website
 Login Page
