@@ -20,6 +20,7 @@
     "@babel/runtime": "^7.14.5",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
     "elint": "^2.0.1",
     "eslint": "^7.28.0",
     "eslint-config-airbnb-base": "^14.2.1",
