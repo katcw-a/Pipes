@@ -1,8 +1,7 @@
-var express = require('express');
-var router = express.Router();
+import express from 'express';
 
-router.get('/', function(req, res, next) {
-  return res.status(200).json({message: 'Welcome to my first attempt'});
-});
+const router = express.Router();
 
-module.exports = router;
+router.get('/', (req, res) => res.status(200).json({ message: 'Server up' }));
+
+export default router;
